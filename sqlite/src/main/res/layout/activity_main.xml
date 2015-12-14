@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strName"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCount"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/count"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset"
+            android:text="@string/strReset"/>
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/input"
+            android:text="@string/strInput"/>
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/modify"
+            android:text="@string/strModify"/>
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete"
+            android:text="@string/strDelete"/>
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/search"
+            android:text="@string/strSearch"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/nameResult"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/countResult"/>
+    </LinearLayout>
+</LinearLayout>
