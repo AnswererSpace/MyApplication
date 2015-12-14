@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="Input">URL을 입력하세요.</string>
+    <string name="Go">이동</string>
+    <string name="Back">뒤로</string>
+</resources>
