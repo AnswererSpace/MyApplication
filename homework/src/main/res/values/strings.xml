@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="strSave">저장</string>
+    <string name="strContext">일기내용을 입력하세요</string>
+</resources>
