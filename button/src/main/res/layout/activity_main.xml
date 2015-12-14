@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/nate"
+        android:text="@string/str1"
+        android:background="#97696969">
+    </Button>
+
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/emergency"
+        android:text="@string/str2"
+        android:background="#79ff53">
+    </Button>
+
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/gallery"
+        android:text="@string/str3"
+        android:background="#ff270d">
+    </Button>
+
+    <Button
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/exit"
+        android:text="@string/str4"
+        android:background="#fbff29">
+    </Button>
+</LinearLayout>
